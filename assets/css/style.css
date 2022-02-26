@@ -146,16 +146,12 @@ form.opt-in input[type="email"]{
 form.opt-in .button {
   font-weight: 400;
   font-size: 16px;
-  background: #F34955;
+  background: #5405D6;
   color: #fff;
   padding: 15px 30px;
   border-radius: 12px;
   border: 0;
   cursor: pointer;
-}
-
-.hero form.opt-in .button {
-  background: #5405D6;
 }
 
 .cta {
@@ -168,6 +164,17 @@ form.opt-in .button {
   width: 60%;
   text-align: center;
   margin: 0 0 40px 0;
+}
+
+.cta .cta-button{
+  font-weight: 400;
+  font-size: 18px;
+  background: #F34955;
+  color: #fff;
+  padding: 20px 40px;
+  border-radius: 12px;
+  border: 0;
+  cursor: pointer;
 }
 
 .colophon {
