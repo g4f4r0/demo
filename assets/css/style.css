@@ -166,15 +166,17 @@ form.opt-in .button {
   margin: 0 0 40px 0;
 }
 
-.cta .cta-button{
-  font-weight: 400;
-  font-size: 18px;
-  background: #F34955;
-  color: #fff;
-  padding: 20px 40px;
-  border-radius: 12px;
-  border: 0;
-  cursor: pointer;
+.cta .cta-btn {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1;
+    background: #F34955;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 12px;
+    border: 0;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .colophon {
@@ -229,6 +231,9 @@ form.opt-in .button {
 .cta h2 {
   width: 100%;
   font-size: 28px;
+}
+  .cta .cta-btn {
+    width: 100%;
 }
 
 .footer-block {
