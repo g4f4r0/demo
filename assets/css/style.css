@@ -134,7 +134,7 @@ form.opt-in input{
   width: 100%;
 }
 
-form.opt-in button {
+form.opt-in .button {
   font-weight: 400;
   font-size: 16px;
   background: #F34955;
@@ -145,7 +145,7 @@ form.opt-in button {
   cursor: pointer;
 }
 
-.hero form.opt-in button {
+.hero form.opt-in .button {
   background: #5405D6;
 }
 
@@ -203,7 +203,7 @@ form.opt-in input {
     padding: 15px;
     text-align: center;
 }
-form.opt-in button {
+form.opt-in .button {
   padding: 20px 30px;
 }
 
