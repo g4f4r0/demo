@@ -105,6 +105,15 @@ font-size: 14px;
 margin-left: 10px;
 }
 
+img.feature--icon {
+    display: inline-flex;
+}
+
+.feature--title {
+    display: flex;
+    align-items: center;
+}
+
 .feature_purple { color: #5405D6; }
 .feature_red { color: #F34955; }
 .feature_orange { color: #FE6848; }
