@@ -5,7 +5,7 @@
     <sergey-import src="header" />
 
     <main>
-    <section class="hero">
+    <section class="hero" name="hero">
    <div class="wrapper">
       <img class="site-branding" src="assets/img/brand.svg">
       <h1>La herramienta que necesitas para vender sin complicaciones.</h1>
@@ -136,7 +136,7 @@
 <section class="cta">
    <div class="wrapper">
       <h2>Registra tu interés para obtener acceso prioritario.</h2>
-      <a href="#hero" class="cta-btn">Unirme a lista de espera</a>
+      <a href="#hero" class="cta-btn smooth-link">Unirme a lista de espera</a>
    </div>
 </section> 
     </main>
@@ -158,7 +158,19 @@
     omnisend.push(["track", "$pageViewed"]);
     !function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://omnisnippet1.com/inshop/launcher-v2.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}();
 </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+  function scrollToAnchor(aid){
+  const destination = $("a[name='"+ aid +"']");
+    $('#destination').animate({
+      scrollTop: destination.offset().top
+    },'slow');
+}
 
+$(document).on('click', '.smooth-link', function(){
+  scrollToAnchor('hero');
+})
+  </script>
     
   </body>
 </html>
