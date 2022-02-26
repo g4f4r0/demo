@@ -142,6 +142,7 @@ form.opt-in button {
   padding: 15px 30px;
   border-radius: 12px;
   border: 0;
+  cursor: pointer;
 }
 
 .hero form.opt-in button {
