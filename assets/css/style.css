@@ -136,7 +136,7 @@ form.opt-in {
   justify-content: space-between;
 }
 
-form.opt-in input[type="text"]{
+form.opt-in input[type="email"]{
   padding: 10px;
   border: none;
   margin: 0;
@@ -206,7 +206,7 @@ form.opt-in {
   width: 100%;
   flex-direction: column;
 }
-form.opt-in input[type="text"] {
+form.opt-in input[type="email"] {
     margin: 0 0 10px 0;
     box-sizing: border-box;
     padding: 15px;
