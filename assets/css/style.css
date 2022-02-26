@@ -37,6 +37,11 @@ nav {
   box-sizing: border-box;
 }
 
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #fafafa url("../img/background.jpg") no-repeat center top;
   background-size: contain;
